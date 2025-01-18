@@ -1,0 +1,13 @@
+* {
+    margin: 0; padding: 0;
+}
+body {
+    background-image: url(img/slider2.jpg); background-size: cover; float: right;
+}
+div {
+    background-color: white; width: 700px; height: 600px; top: 10px; right: 10px; text-align: right; position: relative;  
+}
+
+h1, p {
+    margin-bottom: 15px;
+}
