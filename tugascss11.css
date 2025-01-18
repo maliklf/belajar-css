@@ -1,0 +1,33 @@
+ul {
+    list-style-type: none;
+    margin: 0; 
+    padding: 0;
+    overflow: hidden;
+    background-color: black; 
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    padding: 8px;
+    text-decoration: none;
+}
+
+.span {
+    column-span: all;
+    text-align: justify;
+    column-count: 4;
+    height: 180px;
+    column-width: 300px; 
+    column-fill: balance;
+    column-gap: 30px;
+    column-rule: 2px solid black 
+}
+
+footer {
+    background-color: black; color: white; text-align: center;
+}
